@@ -1,3 +1,60 @@
 // Place all the styles related to the StaticPages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background-color: #1F2833;
+}
+:root {
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
+h3 {
+  font-size: 1.45rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+small {
+  font-size: .75rem;
+}
+p, h1 {
+  color: #C5C6C7;
+}
+
+.main-line {
+  padding: 2rem;
+  text-align: center;
+}
+
+.highlight {
+  color: #66FCF1;
+}
+
+.quick-contact-info {
+  text-align: center;
+}
+
+a {
+  color: #66FCF1;
+}
+
+.first-view {
+  height:100vh;
+}
