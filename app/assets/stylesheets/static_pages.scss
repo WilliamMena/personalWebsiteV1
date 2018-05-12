@@ -17,7 +17,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 h3 {
@@ -35,7 +35,7 @@ h5 {
 small {
   font-size: .75rem;
 }
-p, h1 {
+p, h1, li {
   color: #C5C6C7;
 }
 
@@ -57,13 +57,16 @@ p, h1 {
 
 .quick-contact-info {
   text-align: center;
-  position: relative;
-  bottom: 0
+
 
 }
 
-a {
+a, h2 {
   color: #66FCF1;
+}
+
+h4 {
+  color: #45A29E;
 }
 
 .first-view {
