@@ -39,6 +39,11 @@ p, h1, li {
   color: #C5C6C7;
 }
 
+ul {
+  list-style-type: none;
+  // border-left: 1px solid #66FCF1;
+}
+
 .main-line {
   padding: 2rem;
   text-align: center;
@@ -57,8 +62,6 @@ p, h1, li {
 
 .quick-contact-info {
   text-align: center;
-
-
 }
 
 a, h2 {
@@ -71,4 +74,8 @@ h4 {
 
 .first-view {
   height:100vh;
+}
+
+.skill-headers {
+  align-self: start;
 }
