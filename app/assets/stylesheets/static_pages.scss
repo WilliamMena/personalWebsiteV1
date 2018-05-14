@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body {
-  background-color: #1F2833;
+  background: linear-gradient(#1F2833, #2a4c52);
 }
 :root {
   display: grid;
@@ -49,8 +49,21 @@ ul {
   // border-left: 1px solid #66FCF1;
 }
 
-a, h2 {
+h2 {
   color: #66FCF1;
+}
+
+a {
+  color: #66FCF1;
+  // border: solid 2px black;
+  text-decoration: none;
+  transition: color 0.3s linear;
+
+}
+
+a:hover {
+  color: #45A29E;
+  text-decoration: underline;
 }
 
 li.project-li {
@@ -121,6 +134,7 @@ footer {
     height:80vh;
     margin-top: 20%;
     padding: 50px;
+    font-size: 1.4rem;
   }
 
   .main-line {
