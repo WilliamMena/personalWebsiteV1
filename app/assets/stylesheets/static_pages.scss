@@ -63,6 +63,10 @@ li.project-li::before {
   color: #66FCF1; /* or whatever color you prefer */
 }
 
+a.project-link {
+  font-size: .8rem;
+}
+
 .highlight {
   color: #66FCF1;
 }
@@ -93,6 +97,19 @@ li.project-li::before {
 .skill-headers {
   align-self: start;
 }
+
+
+@media screen and (max-width:1024px) {
+  h1 {
+    font-size: 5rem;
+  }
+  .first-view {
+    font-size: 2.5rem;
+  }
+
+}
+
+
 
 @media screen and (max-width:768px) {
   h1 {
