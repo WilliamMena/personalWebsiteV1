@@ -98,6 +98,16 @@ a.project-link {
   align-self: start;
 }
 
+footer {
+
+  padding-top: 3rem;
+  text-align: center;
+  a {
+    padding: 1rem;
+  }
+}
+
+
 
 @media screen and (max-width:1024px) {
   h1 {
@@ -106,7 +116,9 @@ a.project-link {
   .first-view {
     font-size: 2.5rem;
   }
-
+  :root{
+    padding: 0 2.5rem 0 2.5rem;
+  }
 }
 
 
@@ -129,10 +141,7 @@ a.project-link {
 
 @media screen and (max-width: 480px) {
   :root {
-    display: grid;
     font-size: 16px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    line-height: 1.2;
   }
 
   .first-view {
@@ -143,5 +152,18 @@ a.project-link {
 
   .main-line {
     padding: 0;
+  }
+}
+
+@media screen and (orientation:landscape) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  .first-view {
+    font-size: 1.7rem;
+  }
+  :root {
+    font-size: 16px;
   }
 }
