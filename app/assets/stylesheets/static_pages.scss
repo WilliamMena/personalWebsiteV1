@@ -26,6 +26,7 @@ h3 {
 
 h4 {
   font-size: 1.3rem;
+  color: #45A29E;
 }
 
 h5 {
@@ -35,14 +36,34 @@ h5 {
 small {
   font-size: .75rem;
 }
-p, h1, li {
+p, h1, li, i {
   color: #C5C6C7;
+}
+
+p, li {
+  font-weight: lighter;
 }
 
 ul {
   list-style-type: none;
   // border-left: 1px solid #66FCF1;
 }
+
+a, h2 {
+  color: #66FCF1;
+}
+
+li.project-li {
+  padding: 0 0 2px 0;
+}
+
+li.project-li::before {
+  content: "• ";
+  color: #66FCF1; /* or whatever color you prefer */
+}
+
+
+
 
 .main-line {
   padding: 2rem;
@@ -64,13 +85,6 @@ ul {
   text-align: center;
 }
 
-a, h2 {
-  color: #66FCF1;
-}
-
-h4 {
-  color: #45A29E;
-}
 
 .first-view {
   height:100vh;
