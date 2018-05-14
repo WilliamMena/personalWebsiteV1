@@ -37,13 +37,38 @@
   grid-column: span 10;
 }
 
-@media screen and (max-width: 398px) {
-  .row {
-    grid-template-columns: repeat(1, 1fr);
-    display: block;
-  }
-/*   .col,
-  .col.one-fourth {
-    grid-column: span 1;
-  } */
+
+@media screen and (max-width:768px) {
+ .row {
+  grid-template-columns: repeat(6, 1fr);
+ }
 }
+
+@media screen and (max-width: 480px) {
+  .row {
+    grid-template-columns: repeat(2, 1fr);
+    /* display: block; */
+  }
+
+  .col, .one-half, .one-sixth, .one-third, .one-fourth, .two-thirds, .three-fourths, .five-sixths {
+    grid-column: span 2;
+  }
+
+  .col.mobile-one-half {
+    grid-column: span 1;
+  }
+}
+
+@media screen and (max-width:440px) {
+ .row {
+  display:block
+ }
+}
+
+/*
+
+@media screen and (max-width:480px) {
+ .row {
+  padding:50px 35px
+ }
+} */
